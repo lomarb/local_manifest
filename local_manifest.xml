@@ -2,17 +2,23 @@
 <manifest>
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <project name="lomarb/android_frameworks_native" path="frameworks/native" revision="cm-10.1" />
+  
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <project name="lomarb/android_hardware_qcom_media" path="hardware/qcom/media" revision="master" />
+  
   <remove-project name="CyanogenMod/android_vendor_cm" />
   <project name="lomarb/android_vendor_cm" path="vendor/cm" revision="cm-10.1" />
+  
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <project name="lomarb/android_frameworks_av" path="frameworks/av" revision="master" />
+  
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <project name="Evervolv/android_hardware_libhardware" path="hardware/libhardware" revision="jellybean" />
+  
+  <project name="scverhagen/htc-kernel-doubleshot" path="kernel/htc/doubleshot" revision="master" />
+  
   <project name="lomarb/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="cm-10.1" />
   <project name="lomarb/android_device_htc_doubleshot" path="device/htc/doubleshot" revision="master" />
-  <project name="scverhagen/htc-kernel-doubleshot" path="kernel/htc/doubleshot" revision="master" />
   <project name="lomarb/vendor_htc_doubleshot" path="vendor/htc/doubleshot" revision="master" />
   <project name="lomarb/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="master" />
   <project name="lomarb/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="master" />
