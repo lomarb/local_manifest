@@ -13,7 +13,7 @@
   <project name="lomarb/android_frameworks_av" path="frameworks/av" revision="master" />
   
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
-  <project name="Evervolv/android_hardware_libhardware" path="hardware/libhardware" revision="jellybean" />
+  <project name="lomarb/android_hardware_libhardware" path="hardware/libhardware" revision="jellybean" />
   
   <project name="scverhagen/htc-kernel-doubleshot" path="kernel/htc/doubleshot" revision="master" />
   
