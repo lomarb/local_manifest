@@ -11,7 +11,7 @@
   <project name="lomarb/android_vendor_cm" path="vendor/cm" revision="cm-10.1" />
   
   <remove-project name="CyanogenMod/android_frameworks_base" />
-  <project name="lomarb/android_frameworks_base" path="frameworks/base" revision="master" />
+  <project name="lomarb/android_frameworks_base" path="frameworks/base" revision="cm-10.1" />
   
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <project name="lomarb/android_frameworks_av" path="frameworks/av" revision="master" />
