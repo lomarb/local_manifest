@@ -4,5 +4,6 @@ local_manifest
 
 From Android root folder:
 
-cd .rep0
+cd .repo
+
 git clone https://github.com/lomarb/local_manifests.git
