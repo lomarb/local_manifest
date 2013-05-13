@@ -7,3 +7,7 @@ From Android root folder:
 cd .repo
 
 git clone https://github.com/lomarb/local_manifests.git
+
+cd ..
+
+repo sync
